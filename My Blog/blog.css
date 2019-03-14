@@ -1,0 +1,30 @@
+h2{
+  font-size: 40px;
+  background-color:rgb(148, 185, 228);
+}
+body{
+  background-color:rgb(195, 223, 235);
+
+}
+h4{
+  font-size: 1.3em;
+  background-color: rgb(148, 185, 228);
+}
+#CSS{
+  font-family:'Courier New', Courier, monospace
+}
+#Jungle{
+
+  font-family:'Courier New', Courier, monospace
+}
+#Entry{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#Title{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+img:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+   }
