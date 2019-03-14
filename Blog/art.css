@@ -1,0 +1,57 @@
+#bio{
+  font-size: 12px
+}
+ body {
+   background-color: rgb(161, 195, 218);
+   }
+.heading{
+  background-color:rgb(161, 162, 230);
+  font-size:40px
+}
+#water{
+  background-image: url("https://every-tuesday.com/wp-content/uploads/2016/05/watercolor-texture-specific-color-preview3-1200x580.jpg");
+ width: 100%;
+ height: 180px;
+ overflow: hidden;
+
+}
+#Lapiz{
+  background-image: url("https://s23932.pcdn.co/wp-content/uploads/2018/04/GettyImages-172711535_graphite-pencil-drawing-1024x683.jpg");
+  width: 100%;
+ height: 180px;
+ overflow: hidden;
+
+}
+#BOX{
+  background-image: url("https://i.pinimg.com/originals/9b/a5/a2/9ba5a220b73eb7cf1eabcbedf3101fe9.jpg");
+  width: 100%;
+ height: 180px;
+ overflow: hidden;
+ 
+}
+.prices-1{
+ position: relative;
+ left: 300px;
+ top: -80px;
+}
+.product-1{
+  position: relative;
+  left: 25px;
+  top:15px;
+  font-size: 30px;
+  color:rgb(191, 179, 224);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.product-2{
+   position: relative;
+  left: 330px;
+  top:15px;
+  font-size: 30px;
+  color:rgb(148, 133, 190);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.prices-2{
+  position: relative;
+  left: 30px;
+  top: -90px;
+}
