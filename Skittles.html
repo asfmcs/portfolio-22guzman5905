@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Skittles</title>
+<title>Mario </title>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
@@ -26,7 +26,7 @@ pre {
 </head>
 
 <body>
-<h1>Skittles</h1>
+<h1>Mario </h1>
 
 
 
@@ -39,32 +39,21 @@ class="codehs-editor-canvas"></canvas>
 <script>
 window.onload = function() {
 
-    function start(){
-    var Skittles= Randomizer.nextInt(0, 1023);
-    
-          
-           var guess= readInt("Guess??");
-          var sum = (Skittles == guess);
-
-    while(Skittles !=guess){
-        println("incorect");
-        if(guess<= Skittles){
-            println("Higher");
-        }else{
-            println("Lower");
-        }
-         var guess= readInt("Guess??");
-         
-    }
-    println("Correct!!");
-
-        
-        
-    
-    
-    
-    
-    }
+    	function start (){
+	   while(true){
+	       var steps= readInt("how many steps?? ");
+	    if( steps>0 && steps <= 13){
+	        break;}
+	   }
+	   for( var i= 0; i < steps; i++){
+	       for(var spaces = steps- i; spaces>=1; spaces--){
+	           print(" ");
+	           }
+	       for(var h=0; h<= i + 1; h++){
+	           print("#");}
+	           println("");
+	   }
+	}
 
 
     if (typeof start === 'function') {
